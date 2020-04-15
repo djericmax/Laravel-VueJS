@@ -5,8 +5,6 @@
     <painel titulo="Lista de artigos">
         <migalhas v-bind:lista="{{$listaMigalhas}}"></migalhas>
         
-        
-
         <modallink tipo="link" nome="meuModalTeste" titulo="Criar" css="info"></modallink>
 
         <tabela-lista
